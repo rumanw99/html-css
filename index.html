@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Dashboard</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#messages">Messages</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        <div class="content" id="home">
+            <h2>Welcome to your Dashboard</h2>
+            <p>Here you can find various statistics and information.</p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>Some information here.</p>
+                </div>
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Some information here.</p>
+                </div>
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Some information here.</p>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="profile">
+            <h2>Profile Section</h2>
+            <p>Profile information goes here.</p>
+        </div>
+        <div class="content" id="messages">
+            <h2>Messages Section</h2>
+            <p>Messages will be displayed here.</p>
+        </div>
+        <div class="content" id="settings">
+            <h2>Settings Section</h2>
+            <p>Settings can be adjusted here.</p>
+        </div>
+    </div>
+</body>
+</html>
